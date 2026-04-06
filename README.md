@@ -2,7 +2,7 @@
 
 É um projeto da minha faculdade da materia de Algoritmo.
 
-Obs: Nao foi ultilizado IA para a construção dos jogos.
+Obs: Nao foi ultilizado IA para a construção dos jogos, somente umas possiveis consultas no Gemini, para localização de erros.
 
 1) Pergunta e Resposta: 
 Neste jogo, o computador apresenta uma pergunta com quatro alternativas e
@@ -20,3 +20,5 @@ aleatória, aumentando o desafio e a imprevisibilidade do jogo.
 3) Gousmas War: 
 Neste jogo de estratégia, os jogadores controlam criaturas chamadas
 Gousmas, que podem se dividir e acumular fúria ao serem atacadas.
+
+Integrantes: Rafael alessandro Dessbesell e Wanderlay collaco chaves neto
