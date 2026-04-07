@@ -5,8 +5,8 @@
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main(int argc, char *argv[]) {
-	
-	int respostadejogo;
+
+	char respostadejogo;
 	
 	do{
 	
@@ -25,9 +25,9 @@ int main(int argc, char *argv[]) {
 	do{
 		
 		printf("\nQual a sua escolha?:");
-		scanf(" %i",&respostadejogo);
+		scanf(" %c",&respostadejogo);
 		
-	}while(respostadejogo!=1&&respostadejogo!=2&&respostadejogo!=3&&respostadejogo!=4);
+	}while(respostadejogo!='1'&&respostadejogo!='2'&&respostadejogo!='3'&&respostadejogo!='4');
 	
 	
 	
@@ -38,7 +38,7 @@ int main(int argc, char *argv[]) {
 	
 
 	
-	if(respostadejogo == 1){
+	if(respostadejogo == '1'){
 		
 		
 	int acertos;
@@ -238,7 +238,7 @@ int main(int argc, char *argv[]) {
 
 	
 
-	if(respostadejogo == 2){
+	if(respostadejogo == '2'){
 		
 			
 	srand(time(NULL));
@@ -452,7 +452,7 @@ system("cls");
 	
 	}
 	
-	if(respostadejogo == 3){
+	if(respostadejogo == '3'){
 			srand(time(NULL));
 	
 	
