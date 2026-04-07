@@ -529,16 +529,16 @@ system("cls");
 	
 	//vez do outro jogador
 	
-	if(m1>=5){
+	if(m1>=6){
 		m1=0;
 	}
-	if(m2>=5){
+	if(m2>=6){
 		m2=0;
 	}
-	if(m3>=5){
+	if(m3>=6){
 		m3=0;
 	}
-	if(m4>=5){
+	if(m4>=6){
 		m4=0;
 	}
 	
@@ -610,16 +610,16 @@ system("cls");
 	
 	
 		
-	if(m1>=5){
+	if(m1>=6){
 		m1=0;
 	}
-	if(m2>=5){
+	if(m2>=6){
 		m2=0;
 	}
-	if(m3>=5){
+	if(m3>=6){
 		m3=0;
 	}
-	if(m4>=5){
+	if(m4>=6){
 		m4=0;
 	}
 	
@@ -705,16 +705,16 @@ system("cls");
 	
 	//vez do outro jogador
 	
-	if(m1>=5){
+	if(m1>=6){
 		m1=0;
 	}
-	if(m2>=5){
+	if(m2>=6){
 		m2=0;
 	}
-	if(m3>=5){
+	if(m3>=6){
 		m3=0;
 	}
-	if(m4>=5){
+	if(m4>=6){
 		m4=0;
 	}
 	
@@ -787,16 +787,16 @@ system("cls");
 	
 	//para transformar as maos grandes em 0
 	
-	if(m1>=5){
+	if(m1>=6){
 		m1=0;
 	}
-	if(m2>=5){
+	if(m2>=6){
 		m2=0;
 	}
-	if(m3>=5){
+	if(m3>=6){
 		m3=0;
 	}
-	if(m4>=5){
+	if(m4>=6){
 		m4=0;
 	}
 	
