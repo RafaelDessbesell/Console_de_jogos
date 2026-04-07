@@ -927,7 +927,7 @@ system("cls");
 	}
 	
 	
-}while(respostadejogo == 1 || respostadejogo == 2 || respostadejogo == 3);
+}while(respostadejogo == '1' || respostadejogo == '2' || respostadejogo == '3');
 	      
 	
 	
