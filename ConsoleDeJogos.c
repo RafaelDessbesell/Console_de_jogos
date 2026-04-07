@@ -19,11 +19,16 @@ int main(int argc, char *argv[]) {
 	printf("3-Gousmas war\n");
 	printf("4-Sair");
 	
-	printf("\nQual a sua escolha?:");
 	
 	
+	do{
+		
+		printf("\nQual a sua escolha?:");
+		scanf(" %i",&respostadejogo);
+		
+	}while(respostadejogo!=1&&respostadejogo!=2&&respostadejogo!=3&&respostadejogo!=4);
 	
-	scanf(" %i",&respostadejogo);
+	
 	
 	
 	
@@ -69,9 +74,11 @@ int main(int argc, char *argv[]) {
 	char resposta1;
 	
 	
-	
+	do{
 	printf("\nResposta:");
 	scanf(" %c",&resposta1);
+	}while(resposta1!='a'&&resposta1!='b'&&resposta1!='c'&&resposta1!='d');
+
 	
 	
 	if(resposta1 == 'a'){
@@ -99,8 +106,10 @@ int main(int argc, char *argv[]) {
 		
 			char resposta2;
 	
+	do{
 	printf("\nResposta:");
 	scanf(" %c",&resposta2);
+	}while(resposta2!='a'&&resposta2!='b'&&resposta2!='c'&&resposta2!='d');
 	
 	if(resposta2 == 'd'){
 		printf("\n\nAcertouuuuuu, parabens :)\n\n");
@@ -126,8 +135,10 @@ int main(int argc, char *argv[]) {
 		
 			char resposta3;
 	
+	do{
 	printf("\nResposta:");
 	scanf(" %c",&resposta3);
+	}while(resposta3!='a'&&resposta3!='b'&&resposta3!='c'&&resposta3!='d');
 	
 	if(resposta3 == 'd'){
 		printf("\n\nAcertouuuuuu, parabens :)\n\n");
@@ -155,8 +166,11 @@ int main(int argc, char *argv[]) {
 		
 			char resposta4;
 	
+	do{
 	printf("\nResposta:");
 	scanf(" %c",&resposta4);
+	}while(resposta4!='a'&&resposta4!='b'&&resposta4!='c'&&resposta4!='d');
+	
 	
 	if(resposta4 == 'b'){
 		printf("\n\nAcertouuuuuu, parabens :)\n\n");
@@ -183,8 +197,10 @@ int main(int argc, char *argv[]) {
 		
 			char resposta5;
 	
+	do{
 	printf("\nResposta:");
 	scanf(" %c",&resposta5);
+	}while(resposta5!='a'&&resposta5!='b'&&resposta5!='c'&&resposta5!='d');
 	
 	if(resposta5 == 'c'){
 		printf("\n\nAcertouuuuuu, parabens :)\n\n");
@@ -245,8 +261,13 @@ int main(int argc, char *argv[]) {
 	char tutorial;
 	
 	printf("Quer ver o tutorial? Digite sim - s ou Nao - n\n");
+	
+	do{
 	printf("Escolha:");
 	scanf(" %c",& tutorial);
+	}while(tutorial!='s'&&tutorial!='n');
+	
+	
 	
 	
 	
@@ -323,32 +344,48 @@ system("cls");
 	
 	
 	if( vez == 0){
-			printf("\nPlayer 1) Escolha a tumba de 1 - 7:");
+		do{
+	printf("\nPlayer 1) Escolha a tumba de 1 - 7:");
 			scanf(" %i",&p1);
+			
+	}while(p1!=1&&p1!=2&&p1!=3&&p1!=4&&p1!=5&&p1!=6&&p1!=7);
 			
 	}
 
 system("cls");
 		
 	if( vez == 1){
-			printf("\nPlayer 2) Escolha a tumba 1 - 7:");
+			do{
+		printf("\nPlayer 2) Escolha a tumba 1 - 7:");
 			scanf(" %i",&p2);
+			
+	}while(p2!=1&&p2!=2&&p2!=3&&p2!=4&&p2!=5&&p2!=6&&p2!=7);
+		
 			
 	}
 	
 	system("cls");
 				
 	if( vez == 1){
-			printf("\nPlayer 1) Escolha a tumba 1- 7:");
+		
+			do{
+	printf("\nPlayer 1) Escolha a tumba de 1 - 7:");
 			scanf(" %i",&p1);
+			
+	}while(p1!=1&&p1!=2&&p1!=3&&p1!=4&&p1!=5&&p1!=6&&p1!=7);
+		
 			
 	}
 
 system("cls");
 		
 	if( vez == 0){
-			printf("\nPlayer 2) Escolha a tumba 1 - 7:");
+		
+			do{
+		printf("\nPlayer 2) Escolha a tumba 1 - 7:");
 			scanf(" %i",&p2);
+			
+	}while(p2!=1&&p2!=2&&p2!=3&&p2!=4&&p2!=5&&p2!=6&&p2!=7);
 			
 			
 	}
@@ -398,10 +435,13 @@ system("cls");
 	
 	
 		
+		do{
+		printf("Quer jogar de novo? Digite sim - s ou nao - n\n");
+		printf("Escolha:");
+		scanf(" %c",&jogardnvcobra);
+			
+	}while(jogardnvcobra!='s'&&jogardnvcobra!='n');
 	
-	printf("Quer jogar de novo? Digite sim - s ou nao - n\n");
-	printf("Escolha:");
-	scanf(" %c",&jogardnvcobra);
 	
 	system("cls");
 	
@@ -469,11 +509,18 @@ system("cls");
 	printf("player 1) %i	%i\n",m1,m2);
 	printf("player 2) %i	%i\n\n",m3,m4);
 	
-	printf("\n(Player 1)\n");
+	do{
+		
+		printf("\n(Player 1)\n");
 	printf("Atacar - a\n");
 	printf("Dividir - d\n");
 	printf("Escolha:");
 	scanf(" %c",&escolha);
+		
+		
+		
+	}while(escolha!='a'&&escolha!='d');
+	
 	
 	
 	
