@@ -24,7 +24,7 @@ int main(int argc, char *argv[]) {
 	
 	do{
 		
-		printf("\nQual a sua escolha?:");
+		printf("\n\nQual a sua escolha?:");
 		scanf(" %c",&respostadejogo);
 		
 	}while(respostadejogo!='1'&&respostadejogo!='2'&&respostadejogo!='3'&&respostadejogo!='4');
